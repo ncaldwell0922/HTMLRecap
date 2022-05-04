@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Recap</title>
+</head>
+<body>
+    <h1>HTML Recap Assignment</h1>
+
+    <h2>Div</h2>
+    <div style="border: 5px solid red; background-color: lightgreen;">
+        <p>This portion displays what a div tag will display as with the parameters I have set, which is a red border and a green background.
+        </p>
+    </div>
+
+    <hr />
+
+    <h2>Forms and Inputs</h2>
+    <p>You can also create user input boxes as well as other forms that can be interacted with on the front end. See examples below.</p>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Your Info</legend>
+                <p>
+                    <label>Name: <input type="name" /></label>
+                </p>
+                <p>
+                    <label>Address: <input type="address" /></label>
+                </p>
+                <p>
+                    <label>Email: <input type="email" /></label>
+                </p>
+            </fieldset>
+            <p>Or you can add one with checkboxes.</p>
+            <br />
+            <fieldset>
+                <legend>Pizza Toppings</legend>
+                <p>
+                    <input type="checkbox" name="pizza toppings" id="pepperoni" value="pepperoni" />
+                    <label for="pepperoni">Pepperoni</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pizza toppings" id="sausage" value="sausage" />
+                    <label for="sausage">Sausage</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pizza toppings" id="cheese" value="cheese" />
+                    <label for="cheese">Cheese</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pizza toppings" id="pineapple" value="pineapple" />
+                    <label for="pineapple">Pineapple(don't pick)</label>
+                </p>
+            </fieldset>
+            <p>Or maybe you want multple choice.</p>
+            <br />
+            <fieldset>
+                <legend>Do you understand this topic yet?</legend>
+                <p>
+                    <input type="radio" name="do you understand this topic yet?" id="yes" value="yes" />
+                    <label for="yes">Yes</label>
+                </p>
+                <p>
+                    <input type="radio" name="do you understand this topic yet?" id="no" value="no" />
+                    <label for="no">No</label>
+                </p>
+                <p>
+                    <input type="radio" name="do you understand this topic yet?" id="maybe" value="maybe" />
+                    <label for="maybe">Maybe</label>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
