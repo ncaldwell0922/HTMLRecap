@@ -9,16 +9,28 @@
 <body>
     <h1>HTML Recap Assignment</h1>
 
-    <h2>Div</h2>
-    <div style="border: 5px solid red; background-color: lightgreen;">
-        <p>This portion displays what a div tag will display as with the parameters I have set, which is a red border and a green background.
-        </p>
+    <div style="border: 5px solid red; background-color: lightgreen; text-align: center;">
+        <section style="width: 50%;">
+            <h1>Donatello's Pizza Palace</h1>
+        </section>
+        <section style="width: 40%;">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://en.wikipedia.org/wiki/Donatello_(Teenage_Mutant_Ninja_Turtles)" target="_blank">About the Owner
+                    <li>
+                        <a href="../HTMLRecap/Donatello.Teenage-Mutant-Ninja-Turtles.jpg">Image of Owner</a>
+                    </li>
+                    <li>
+                        <a href="../HTMLRecap/teenage-mutant-ninja-turtles-pizza-montreal-metro.jpg">Hospitality</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
     </div>
 
     <hr />
 
-    <h2>Forms and Inputs</h2>
-    <p>You can also create user input boxes as well as other forms that can be interacted with on the front end. See examples below.</p>
     <div>
         <form>
             <fieldset>
@@ -33,7 +45,6 @@
                     <label>Email: <input type="email" /></label>
                 </p>
             </fieldset>
-            <p>Or you can add one with checkboxes.</p>
             <br />
             <fieldset>
                 <legend>Pizza Toppings</legend>
@@ -54,24 +65,9 @@
                     <label for="pineapple">Pineapple(don't pick)</label>
                 </p>
             </fieldset>
-            <p>Or maybe you want multple choice.</p>
-            <br />
-            <fieldset>
-                <legend>Do you understand this topic yet?</legend>
-                <p>
-                    <input type="radio" name="do you understand this topic yet?" id="yes" value="yes" />
-                    <label for="yes">Yes</label>
-                </p>
-                <p>
-                    <input type="radio" name="do you understand this topic yet?" id="no" value="no" />
-                    <label for="no">No</label>
-                </p>
-                <p>
-                    <input type="radio" name="do you understand this topic yet?" id="maybe" value="maybe" />
-                    <label for="maybe">Maybe</label>
-                </p>
-            </fieldset>
         </form>
     </div>
+
+    <hr />
 </body>
 </html>
